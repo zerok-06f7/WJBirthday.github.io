@@ -1,15 +1,15 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="HandheldFriendly" content="true">
-<meta name="description" content="ç¨‹åºå‘˜ç»™å¥³æœ‹å‹ç”¨HTML5åˆ¶ä½œçš„3Dç›¸å†Œï¼Œä½¿ç”¨é¼ æ ‡æ‹–æ‹½ï¼Œèƒ½çœ‹åˆ°3Dæ—‹è½¬æ•ˆæœï¼Œç‚¹å‡»ç›¸ç‰‡ï¼Œç›¸ç‰‡èƒ½æ”¾å¤§ï¼Œç§»è¿‘ã€‚ç¨‹åºå‘˜å‘æŒ¥è‡ªå·±çš„ä¸“é•¿ï¼Œè¿™æ˜¯é‚£äº›ä¸æ‡‚ç¼–ç¨‹çš„äººæœ›å°˜è«åŠçš„ã€‚æœ¬ç›¸å†Œä½¿ç”¨äº†HTML5çš„ç”»å¸ƒæŠ€æœ¯ï¼Œéœ€è¦è°·æ­Œæµè§ˆå™¨æˆ–ç«ç‹æµè§ˆå™¨ç­‰ç°ä»£æµè§ˆå™¨æ‰èƒ½æ­£å¸¸è§‚çœ‹ã€‚">
+<meta name="description" content="³ÌĞòÔ±¸øÅ®ÅóÓÑÓÃHTML5ÖÆ×÷µÄ3DÏà²á£¬Ê¹ÓÃÊó±êÍÏ×§£¬ÄÜ¿´µ½3DĞı×ªĞ§¹û£¬µã»÷ÏàÆ¬£¬ÏàÆ¬ÄÜ·Å´ó£¬ÒÆ½ü¡£³ÌĞòÔ±·¢»Ó×Ô¼ºµÄ×¨³¤£¬ÕâÊÇÄÇĞ©²»¶®±à³ÌµÄÈËÍû³¾Äª¼°µÄ¡£±¾Ïà²áÊ¹ÓÃÁËHTML5µÄ»­²¼¼¼Êõ£¬ĞèÒª¹È¸èä¯ÀÀÆ÷»ò»ğºüä¯ÀÀÆ÷µÈÏÖ´úä¯ÀÀÆ÷²ÅÄÜÕı³£¹Û¿´¡£">
 <meta name="keywords" content="canvas,3D,perspective,texturing,gallery">
-<link rel="stylesheet" href="WJP/apps/3d-album/slider-wb.css">
+<link rel="stylesheet" href="slider-wb.css">
 <link rel="shortcut icon" href="/favicon.ico" />
-<title>è¨¾å…®çš„ç”Ÿæ—¥ç¤¼ç‰©</title>
+<title>³ÌĞòÔ±¸øÅ®ÅóÓÑÓÃHTML5ÖÆ×÷µÄ3DÏà²á</title>
 <style>
 html {
 	overflow: hidden;
@@ -41,7 +41,7 @@ body {
 
 
 </style>
-<script src="WJP/apps/3d-album/ge1doot.js"></script>
+<script src="ge1doot.js"></script>
 <script>
 /* 
  * ==============================================================
@@ -277,7 +277,7 @@ body {
 		load : function (data) {
 			
 			ge1doot.loadJS(
-					"WJP/apps/3d-album/imageTransform3D.js",
+					"imageTransform3D.js",
 					init, data
 				);
 		}
@@ -285,21 +285,21 @@ body {
 })().load({
 	imgdata:[
 		// north
-		{img:'WJP/apps/3d-album/1.jpg', x:-1000, y:0, z:1500, nx:0, nz:1},
-		{img:'WJP/apps/3d-album/2.jpg', x:0,     y:0, z:1500, nx:0, nz:1},
-		{img:'WJP/apps/3d-album/3.jpg', x:1000,  y:0, z:1500, nx:0, nz:1},
+		{img:'1.jpg', x:-1000, y:0, z:1500, nx:0, nz:1},
+		{img:'2.jpg', x:0,     y:0, z:1500, nx:0, nz:1},
+		{img:'3.jpg', x:1000,  y:0, z:1500, nx:0, nz:1},
 		// east
-		{img:'WJP/apps/3d-album/4.jpg', x:1500,  y:0, z:1000, nx:-1, nz:0},
-		{img:'WJP/apps/3d-album/5.jpg', x:1500,  y:0, z:0, nx:-1, nz:0},
-		{img:'WJP/apps/3d-album/6.jpg', x:1500,  y:0, z:-1000, nx:-1, nz:0},
+		{img:'4.jpg', x:1500,  y:0, z:1000, nx:-1, nz:0},
+		{img:'5.jpg', x:1500,  y:0, z:0, nx:-1, nz:0},
+		{img:'6.jpg', x:1500,  y:0, z:-1000, nx:-1, nz:0},
 		// south
-		{img:'WJP/apps/3d-album/7.jpg', x:1000,  y:0, z:-1500, nx:0, nz:-1},
-		{img:'WJP/apps/3d-album/8.jpg', x:0,     y:0, z:-1500, nx:0, nz:-1},
-		{img:'WJP/apps/3d-album/9.jpg', x:-1000, y:0, z:-1500, nx:0, nz:-1},
+		{img:'7.jpg', x:1000,  y:0, z:-1500, nx:0, nz:-1},
+		{img:'8.jpg', x:0,     y:0, z:-1500, nx:0, nz:-1},
+		{img:'9.jpg', x:-1000, y:0, z:-1500, nx:0, nz:-1},
 		// west
-		{img:'WJP/apps/3d-album/10.jpg', x:-1500, y:0, z:-1000, nx:1, nz:0},
-		{img:'WJP/apps/3d-album/11.jpg', x:-1500, y:0, z:0, nx:1, nz:0},
-		{img:'WJP/apps/3d-album/12.jpg', x:-1500, y:0, z:1000, nx:1, nz:0}
+		{img:'10.jpg', x:-1500, y:0, z:-1000, nx:1, nz:0},
+		{img:'11.jpg', x:-1500, y:0, z:0, nx:1, nz:0},
+		{img:'12.jpg', x:-1500, y:0, z:1000, nx:1, nz:0}
 	],
 	structure:[
 		{
@@ -427,7 +427,7 @@ body {
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<canvas id="canvas">ä½ çš„æµè§ˆå™¨ä¸æ”¯æŒHTML5ç”»å¸ƒæŠ€æœ¯ï¼Œè¯·ä½¿ç”¨è°·æ­Œæµè§ˆå™¨ã€‚</canvas>
+<canvas id="canvas">ÄãµÄä¯ÀÀÆ÷²»Ö§³ÖHTML5»­²¼¼¼Êõ£¬ÇëÊ¹ÓÃ¹È¸èä¯ÀÀÆ÷¡£</canvas>
 
 <div id="nav">
 <input type="checkbox" name="nav-switch" id="nav-switch">
@@ -435,10 +435,10 @@ body {
 <div class="container">
 <div class="nav-on">
 <ul class="menu">
-<li class="home"></li>
+<li class="home"><a href="http://www.webhek.com">Home</a></li>
 </div>
 <div class="nav-off">
-<h1 class="title">è¨¾å…®çš„ç”Ÿæ—¥ç¤¼ç‰©</h1>
+<h1 class="title">ö¤ÙâµÄÉúÈÕÀñÎï</h1>
 </div>
 </div>
 </label>

@@ -7,9 +7,9 @@
 <meta name="HandheldFriendly" content="true">
 <meta name="description" content="程序员给女朋友用HTML5制作的3D相册，使用鼠标拖拽，能看到3D旋转效果，点击相片，相片能放大，移近。程序员发挥自己的专长，这是那些不懂编程的人望尘莫及的。本相册使用了HTML5的画布技术，需要谷歌浏览器或火狐浏览器等现代浏览器才能正常观看。">
 <meta name="keywords" content="canvas,3D,perspective,texturing,gallery">
-<link rel="stylesheet" href="WJP/apps/3d-album/slider-wb.css">
+<link rel="stylesheet" href="slider-wb.css">
 <link rel="shortcut icon" href="/favicon.ico" />
-<title>訾兮的生日礼物</title>
+<title>程序员给女朋友用HTML5制作的3D相册</title>
 <style>
 html {
 	overflow: hidden;
@@ -41,7 +41,7 @@ body {
 
 
 </style>
-<script src="WJP/apps/3d-album/ge1doot.js"></script>
+<script src="ge1doot.js"></script>
 <script>
 /* 
  * ==============================================================
@@ -277,7 +277,7 @@ body {
 		load : function (data) {
 			
 			ge1doot.loadJS(
-					"WJP/apps/3d-album/imageTransform3D.js",
+					"imageTransform3D.js",
 					init, data
 				);
 		}
@@ -285,21 +285,21 @@ body {
 })().load({
 	imgdata:[
 		// north
-		{img:'WJP/apps/3d-album/1.jpg', x:-1000, y:0, z:1500, nx:0, nz:1},
-		{img:'WJP/apps/3d-album/2.jpg', x:0,     y:0, z:1500, nx:0, nz:1},
-		{img:'WJP/apps/3d-album/3.jpg', x:1000,  y:0, z:1500, nx:0, nz:1},
+		{img:'1.jpg', x:-1000, y:0, z:1500, nx:0, nz:1},
+		{img:'2.jpg', x:0,     y:0, z:1500, nx:0, nz:1},
+		{img:'3.jpg', x:1000,  y:0, z:1500, nx:0, nz:1},
 		// east
-		{img:'WJP/apps/3d-album/4.jpg', x:1500,  y:0, z:1000, nx:-1, nz:0},
-		{img:'WJP/apps/3d-album/5.jpg', x:1500,  y:0, z:0, nx:-1, nz:0},
-		{img:'WJP/apps/3d-album/6.jpg', x:1500,  y:0, z:-1000, nx:-1, nz:0},
+		{img:'4.jpg', x:1500,  y:0, z:1000, nx:-1, nz:0},
+		{img:'5.jpg', x:1500,  y:0, z:0, nx:-1, nz:0},
+		{img:'6.jpg', x:1500,  y:0, z:-1000, nx:-1, nz:0},
 		// south
-		{img:'WJP/apps/3d-album/7.jpg', x:1000,  y:0, z:-1500, nx:0, nz:-1},
-		{img:'WJP/apps/3d-album/8.jpg', x:0,     y:0, z:-1500, nx:0, nz:-1},
-		{img:'WJP/apps/3d-album/9.jpg', x:-1000, y:0, z:-1500, nx:0, nz:-1},
+		{img:'7.jpg', x:1000,  y:0, z:-1500, nx:0, nz:-1},
+		{img:'8.jpg', x:0,     y:0, z:-1500, nx:0, nz:-1},
+		{img:'9.jpg', x:-1000, y:0, z:-1500, nx:0, nz:-1},
 		// west
-		{img:'WJP/apps/3d-album/10.jpg', x:-1500, y:0, z:-1000, nx:1, nz:0},
-		{img:'WJP/apps/3d-album/11.jpg', x:-1500, y:0, z:0, nx:1, nz:0},
-		{img:'WJP/apps/3d-album/12.jpg', x:-1500, y:0, z:1000, nx:1, nz:0}
+		{img:'10.jpg', x:-1500, y:0, z:-1000, nx:1, nz:0},
+		{img:'11.jpg', x:-1500, y:0, z:0, nx:1, nz:0},
+		{img:'12.jpg', x:-1500, y:0, z:1000, nx:1, nz:0}
 	],
 	structure:[
 		{
@@ -435,7 +435,7 @@ body {
 <div class="container">
 <div class="nav-on">
 <ul class="menu">
-<li class="home"></li>
+<li class="home"><a href="http://www.webhek.com">Home</a></li>
 </div>
 <div class="nav-off">
 <h1 class="title">訾兮的生日礼物</h1>
